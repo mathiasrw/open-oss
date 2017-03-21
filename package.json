@@ -1,0 +1,27 @@
+{
+  "name": "open-oss",
+  "version": "0.1.0",
+  "description": "The OPEN open source project manifest",
+  "main": " ",
+  "dependencies": {},
+  "devDependencies": {
+    "madoko": "^1.0.3"
+  },
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasrw/open-oss.git"
+  },
+  "keywords": [
+    "oss",
+    "manifest"
+  ],
+  "author": "Mathias Rangel Wulff",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mathiasrw/open-oss/issues"
+  },
+  "homepage": "https://github.com/mathiasrw/open-oss#readme"
+}
