@@ -8,7 +8,9 @@
     "madoko": "^1.0.3"
   },
   "scripts": {
-    "test": " "
+    "test": "npm run build && open out/index.html",
+    "build": "madoko content/index.md &&  find . | grep '/manifest/v\\d*-\\d*-\\d*\\.md' | xargs madoko",
+    "publish": "npm test && surge out/ open-oss.com"
   },
   "repository": {
     "type": "git",
